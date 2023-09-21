@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+<property>
+    <name>searcher.dir</name>
+    <value>C:\cygwin64\home\Pronab's PC\nutch-0.9\crawl\</value>
+</property>
+
+</configuration>

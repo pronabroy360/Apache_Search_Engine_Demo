@@ -1,0 +1,270 @@
+Aug 16, 2023 12:31:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;.
+Aug 16, 2023 12:31:31 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 12:31:31 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 329 ms
+Aug 16, 2023 12:31:31 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 16, 2023 12:31:31 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+Aug 16, 2023 12:31:31 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Aug 16, 2023 12:31:31 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Aug 16, 2023 12:31:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+Aug 16, 2023 12:31:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Aug 16, 2023 12:31:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Aug 16, 2023 12:31:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Aug 16, 2023 12:31:32 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 12:31:32 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Aug 16, 2023 12:31:32 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+Aug 16, 2023 12:31:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1085 ms
+Aug 16, 2023 12:33:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;.
+Aug 16, 2023 12:33:35 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 12:33:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 230 ms
+Aug 16, 2023 12:33:35 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 16, 2023 12:33:35 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+Aug 16, 2023 12:33:35 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Aug 16, 2023 12:33:35 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Aug 16, 2023 12:33:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+Aug 16, 2023 12:33:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Aug 16, 2023 12:33:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Aug 16, 2023 12:33:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Aug 16, 2023 12:33:36 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 12:33:36 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Aug 16, 2023 12:33:36 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/10  config=null
+Aug 16, 2023 12:33:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 908 ms
+Aug 16, 2023 12:45:52 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;.
+Aug 16, 2023 12:45:52 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 12:45:52 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 604 ms
+Aug 16, 2023 12:45:52 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 16, 2023 12:45:52 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+Aug 16, 2023 12:45:52 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Aug 16, 2023 12:45:52 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Aug 16, 2023 12:45:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+Aug 16, 2023 12:45:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Aug 16, 2023 12:45:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Aug 16, 2023 12:45:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Aug 16, 2023 12:45:53 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 12:45:53 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Aug 16, 2023 12:45:53 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+Aug 16, 2023 12:45:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 914 ms
+Aug 16, 2023 1:11:48 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Python\Python311;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;.
+Aug 16, 2023 1:11:49 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 1:11:49 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 357 ms
+Aug 16, 2023 1:11:49 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 16, 2023 1:11:49 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+Aug 16, 2023 1:11:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Aug 16, 2023 1:11:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Aug 16, 2023 1:11:49 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+Aug 16, 2023 1:11:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Aug 16, 2023 1:11:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Aug 16, 2023 1:11:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Aug 16, 2023 1:11:50 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 16, 2023 1:11:50 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Aug 16, 2023 1:11:50 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+Aug 16, 2023 1:11:50 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1295 ms
+16 Aug, 2023 1:43:33 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Users\Pronab's PC\Documents\platform-tools;C:\Users\Pronab's PC\Desktop\glpk-4.65\w64;C:\Program Files\Java\jdk1.8.0_341\BIN;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311;C:\Users\Pronab's PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Pronab's PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pronab's PC\AppData\Roaming\npm;C:\Users\Pronab's PC\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\GnuWin32\bin;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;.
+16 Aug, 2023 1:43:34 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 1:43:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 453 ms
+16 Aug, 2023 1:43:34 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16 Aug, 2023 1:43:34 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+16 Aug, 2023 1:43:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16 Aug, 2023 1:43:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16 Aug, 2023 1:43:34 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+16 Aug, 2023 1:43:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16 Aug, 2023 1:43:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16 Aug, 2023 1:43:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16 Aug, 2023 1:43:36 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 1:43:36 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16 Aug, 2023 1:43:36 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/15  config=null
+16 Aug, 2023 1:43:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1945 ms
+16 Aug, 2023 1:51:58 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Users\Pronab's PC\Documents\platform-tools;C:\Users\Pronab's PC\Desktop\glpk-4.65\w64;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311;C:\Users\Pronab's PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Pronab's PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pronab's PC\AppData\Roaming\npm;C:\Users\Pronab's PC\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\GnuWin32\bin;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;.
+16 Aug, 2023 1:51:58 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 1:51:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 407 ms
+16 Aug, 2023 1:51:58 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16 Aug, 2023 1:51:58 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+16 Aug, 2023 1:51:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16 Aug, 2023 1:51:59 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16 Aug, 2023 1:51:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+16 Aug, 2023 1:51:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16 Aug, 2023 1:51:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16 Aug, 2023 1:51:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16 Aug, 2023 1:51:59 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 1:51:59 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16 Aug, 2023 1:51:59 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+16 Aug, 2023 1:51:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 572 ms
+16 Aug, 2023 1:58:06 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Users\Pronab's PC\Documents\platform-tools;C:\Users\Pronab's PC\Desktop\glpk-4.65\w64;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311;C:\Users\Pronab's PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Pronab's PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pronab's PC\AppData\Roaming\npm;C:\Users\Pronab's PC\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\GnuWin32\bin;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;.
+16 Aug, 2023 1:58:06 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 1:58:06 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 303 ms
+16 Aug, 2023 1:58:06 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16 Aug, 2023 1:58:06 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+16 Aug, 2023 1:58:06 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16 Aug, 2023 1:58:06 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16 Aug, 2023 1:58:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+16 Aug, 2023 1:58:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16 Aug, 2023 1:58:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16 Aug, 2023 1:58:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16 Aug, 2023 1:58:08 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 1:58:08 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16 Aug, 2023 1:58:08 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+16 Aug, 2023 1:58:08 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1898 ms
+16 Aug, 2023 7:12:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Users\Pronab's PC\Documents\platform-tools;C:\Users\Pronab's PC\Desktop\glpk-4.65\w64;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311;C:\Users\Pronab's PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Pronab's PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pronab's PC\AppData\Roaming\npm;C:\Users\Pronab's PC\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\GnuWin32\bin;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;.
+16 Aug, 2023 7:12:28 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 7:12:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 506 ms
+16 Aug, 2023 7:12:28 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16 Aug, 2023 7:12:28 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+16 Aug, 2023 7:12:28 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16 Aug, 2023 7:12:28 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16 Aug, 2023 7:12:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+16 Aug, 2023 7:12:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16 Aug, 2023 7:12:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16 Aug, 2023 7:12:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16 Aug, 2023 7:12:29 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 7:12:29 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16 Aug, 2023 7:12:29 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+16 Aug, 2023 7:12:29 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1461 ms
+16 Aug, 2023 10:34:08 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\Users\Pronab's PC\Documents\platform-tools;C:\Users\Pronab's PC\Desktop\glpk-4.65\w64;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Pronab's PC\AppData\Local\Programs\Python\Python311;C:\Users\Pronab's PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Pronab's PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pronab's PC\AppData\Roaming\npm;C:\Users\Pronab's PC\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\GnuWin32\bin;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;.
+16 Aug, 2023 10:34:08 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 10:34:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 387 ms
+16 Aug, 2023 10:34:08 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16 Aug, 2023 10:34:08 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.53
+16 Aug, 2023 10:34:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16 Aug, 2023 10:34:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16 Aug, 2023 10:34:08 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive nutch-0.9.war
+16 Aug, 2023 10:34:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16 Aug, 2023 10:34:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16 Aug, 2023 10:34:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16 Aug, 2023 10:34:09 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+16 Aug, 2023 10:34:09 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16 Aug, 2023 10:34:09 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/15  config=null
+16 Aug, 2023 10:34:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1160 ms

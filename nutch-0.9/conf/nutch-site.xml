@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+<property>
+  <name>http.agent.name</name>
+  <value>nitscrawl</value>
+  <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
+  please set this to a single word uniquely related to your organization.
+
+  NOTE: You should also check other related properties:
+
+	http.robots.agents
+	http.agent.description
+	http.agent.url
+	http.agent.email
+	http.agent.version
+
+  and set their values appropriately.
+
+  </description>
+</property>
+
+<property>
+  <name>http.proxy.host</name>
+  <value>172.16.199.20</value>
+  <description>The proxy hostname.  If empty, no proxy is used.</description>
+</property>
+
+<property>
+  <name>http.proxy.port</name>
+  <value>8080</value>
+  <description>The proxy port.</description>
+</property>
+
+<property>
+  <name>http.timeout</name>
+  <value>100000</value>
+  <description>The default network timeout, in milliseconds.</description>
+</property>
+
+<property>
+  <name>plugin.includes</name>
+  <value>protocol-httpclient|protocol-http|urlfilter-regex|parse-(text|html|js)|index-basic|query-(basic|site|url)|summary-basic|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
+  <description>Regular expression naming plugin directory names to
+  include.  Any plugin not matching this expression is excluded.
+  In any case you need at least include the nutch-extensionpoints plugin. By
+  default Nutch includes crawling just HTML and plain text via HTTP,
+  and basic indexing and search plugins. In order to use HTTPS please enable 
+  protocol-httpclient, but be aware of possible intermittent problems with the 
+  underlying commons-httpclient library.
+  </description>
+</property>
+
+</configuration>

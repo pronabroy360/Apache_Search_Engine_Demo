@@ -1,0 +1,16 @@
+14 Aug, 2023 10:03:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+14 Aug, 2023 10:03:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+14 Aug, 2023 10:12:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+14 Aug, 2023 10:12:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+14 Aug, 2023 10:13:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+14 Aug, 2023 10:13:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+14 Aug, 2023 2:32:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+14 Aug, 2023 2:32:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()

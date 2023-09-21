@@ -1,0 +1,1903 @@
+2023-08-05 18:45:47,740 INFO  crawl.Crawl - crawl started in: crawl
+2023-08-05 18:45:47,740 INFO  crawl.Crawl - rootUrlDir = urls
+2023-08-05 18:45:47,740 INFO  crawl.Crawl - threads = 10
+2023-08-05 18:45:47,740 INFO  crawl.Crawl - depth = 3
+2023-08-05 18:45:47,740 INFO  crawl.Crawl - topN = 50
+2023-08-05 18:45:47,803 INFO  crawl.Injector - Injector: starting
+2023-08-05 18:45:47,803 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2023-08-05 18:45:47,803 INFO  crawl.Injector - Injector: urlDir: urls
+2023-08-05 18:45:47,803 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2023-08-05 18:45:48,133 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:48,322 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:48,356 WARN  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2023-08-05 18:45:49,106 INFO  crawl.Injector - Injector: Merging injected urls into crawl db.
+2023-08-05 18:45:49,280 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2023-08-05 18:45:50,250 INFO  crawl.Injector - Injector: done
+2023-08-05 18:45:51,253 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2023-08-05 18:45:51,253 INFO  crawl.Generator - Generator: starting
+2023-08-05 18:45:51,253 INFO  crawl.Generator - Generator: segment: crawl/segments/20230805184551
+2023-08-05 18:45:51,253 INFO  crawl.Generator - Generator: filtering: false
+2023-08-05 18:45:51,253 INFO  crawl.Generator - Generator: topN: 50
+2023-08-05 18:45:51,269 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2023-08-05 18:45:51,378 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:51,409 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:51,425 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2023-08-05 18:45:51,441 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:51,472 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:52,366 INFO  crawl.Generator - Generator: Partitioning selected urls by host, for politeness.
+2023-08-05 18:45:52,476 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:52,507 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:52,507 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2023-08-05 18:45:53,479 INFO  crawl.Generator - Generator: done.
+2023-08-05 18:45:53,479 INFO  fetcher.Fetcher - Fetcher: starting
+2023-08-05 18:45:53,479 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20230805184551
+2023-08-05 18:45:53,589 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2023-08-05 18:45:53,589 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:53,620 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:53,636 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/
+2023-08-05 18:45:53,651 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:45:53,651 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:45:53,651 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:45:53,651 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:45:53,651 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:45:53,651 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:45:53,651 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:45:53,651 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:45:53,651 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:45:53,651 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:45:53,824 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2023-08-05 18:45:53,903 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2023-08-05 18:45:54,686 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:54,702 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:54,718 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:54,733 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2023-08-05 18:45:55,582 INFO  fetcher.Fetcher - Fetcher: done
+2023-08-05 18:45:55,582 INFO  crawl.CrawlDb - CrawlDb update: starting
+2023-08-05 18:45:55,582 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2023-08-05 18:45:55,582 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20230805184551]
+2023-08-05 18:45:55,582 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2023-08-05 18:45:55,582 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2023-08-05 18:45:55,582 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2023-08-05 18:45:55,597 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2023-08-05 18:45:55,706 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:55,738 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:55,753 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:45:55,785 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:55,816 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:55,816 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:45:55,832 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:55,863 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:55,863 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:45:55,910 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:55,941 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:56,725 INFO  crawl.CrawlDb - CrawlDb update: done
+2023-08-05 18:45:57,734 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2023-08-05 18:45:57,734 INFO  crawl.Generator - Generator: starting
+2023-08-05 18:45:57,734 INFO  crawl.Generator - Generator: segment: crawl/segments/20230805184557
+2023-08-05 18:45:57,734 INFO  crawl.Generator - Generator: filtering: false
+2023-08-05 18:45:57,734 INFO  crawl.Generator - Generator: topN: 50
+2023-08-05 18:45:57,750 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2023-08-05 18:45:57,844 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:57,875 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:57,875 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2023-08-05 18:45:57,906 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:57,937 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:58,832 INFO  crawl.Generator - Generator: Partitioning selected urls by host, for politeness.
+2023-08-05 18:45:58,925 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:45:58,957 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:45:58,957 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2023-08-05 18:45:59,940 INFO  crawl.Generator - Generator: done.
+2023-08-05 18:45:59,940 INFO  fetcher.Fetcher - Fetcher: starting
+2023-08-05 18:45:59,940 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20230805184557
+2023-08-05 18:46:00,065 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2023-08-05 18:46:00,065 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:46:00,097 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://library.nits.ac.in/
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/associate_deans.php
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/festivals.php
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/deans.php
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/doc_verification_procedure.php
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/List_of_Directors_01122017.pdf
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/internship.php
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/btechadmission.php
+2023-08-05 18:46:00,112 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/achievements/achievements.php
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,112 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:46:00,112 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:46:00,112 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:46:00,112 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:46:00,112 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:46:00,112 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:46:00,112 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:46:00,112 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:46:00,190 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2023-08-05 18:46:00,190 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2023-08-05 18:46:00,208 INFO  fetcher.Fetcher - fetching http://me.nits.ac.in/
+2023-08-05 18:46:00,945 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/guesthouse.php
+2023-08-05 18:46:01,186 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/admissionintake.php
+2023-08-05 18:46:02,183 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/photos.php
+2023-08-05 18:46:03,199 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/academic_section.php
+2023-08-05 18:46:04,209 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/accounts/accounts.php
+2023-08-05 18:46:05,224 INFO  fetcher.Fetcher - fetching http://eie.nits.ac.in/
+2023-08-05 18:46:07,591 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/directormessage.php
+2023-08-05 18:46:08,609 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/ccc.php
+2023-08-05 18:46:15,119 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/
+2023-08-05 18:46:16,149 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/objectivesandvalues.php
+2023-08-05 18:46:17,165 INFO  fetcher.Fetcher - fetching http://ce.nits.ac.in/
+2023-08-05 18:46:18,158 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/buildingandworkscommittee.php
+2023-08-05 18:46:19,170 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/financecommittee.php
+2023-08-05 18:46:24,292 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/mbaadmission.php
+2023-08-05 18:46:29,984 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/reachus.php
+2023-08-05 18:46:30,981 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/registrar.php
+2023-08-05 18:46:32,007 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/academic_rules.php
+2023-08-05 18:46:33,018 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/history.php
+2023-08-05 18:46:34,035 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/noticeboard.php
+2023-08-05 18:46:48,126 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/fee_structure.php
+2023-08-05 18:46:49,143 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/mtechadmission.php
+2023-08-05 18:46:50,159 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/academic_forms.php
+2023-08-05 18:46:51,191 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/campusfacilities.php
+2023-08-05 18:46:52,197 WARN  parse.ParserFactory - ParserFactory: Plugin: org.apache.nutch.parse.pdf.PdfParser mapped to contentType application/pdf via parse-plugins.xml, but not enabled via plugin.includes in nutch-default.xml
+2023-08-05 18:46:52,197 WARN  parse.ParseUtil - No suitable parser found when trying to parse content http://www.nits.ac.in/aboutus/List_of_Directors_01122017.pdf of type application/pdf
+2023-08-05 18:46:52,197 WARN  fetcher.Fetcher - Error parsing: http://www.nits.ac.in/aboutus/List_of_Directors_01122017.pdf: failed(2,200): org.apache.nutch.parse.ParseException: parser not found for contentType=application/pdf url=http://www.nits.ac.in/aboutus/List_of_Directors_01122017.pdf
+2023-08-05 18:46:52,197 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/academiccalendar_timetable.php
+2023-08-05 18:46:53,220 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/phdadmission.php
+2023-08-05 18:46:54,230 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/programme.php
+2023-08-05 18:46:55,263 INFO  fetcher.Fetcher - fetching http://ec.nits.ac.in/
+2023-08-05 18:46:56,270 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/senatecommittee.php
+2023-08-05 18:46:57,286 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/wardens.php
+2023-08-05 18:46:58,302 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/scholarships.php
+2023-08-05 18:46:59,318 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/hods.php
+2023-08-05 18:47:00,339 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/director.php
+2023-08-05 18:47:01,358 INFO  fetcher.Fetcher - fetching http://cs.nits.ac.in/
+2023-08-05 18:47:02,378 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/deputyregistrar.php
+2023-08-05 18:47:23,813 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/visionandmission.php
+2023-08-05 18:47:24,850 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/contactus_academics.php
+2023-08-05 18:47:25,855 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/boardofgovernors.php
+2023-08-05 18:47:26,859 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/assistantregistrar.php
+2023-08-05 18:47:27,867 INFO  fetcher.Fetcher - fetching http://eed.nits.ac.in/
+2023-08-05 18:47:52,649 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:52,665 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:52,696 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2023-08-05 18:47:53,559 INFO  fetcher.Fetcher - Fetcher: done
+2023-08-05 18:47:53,560 INFO  crawl.CrawlDb - CrawlDb update: starting
+2023-08-05 18:47:53,560 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2023-08-05 18:47:53,560 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20230805184557]
+2023-08-05 18:47:53,560 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2023-08-05 18:47:53,560 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2023-08-05 18:47:53,560 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2023-08-05 18:47:53,575 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2023-08-05 18:47:53,670 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:53,701 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:53,701 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:47:53,732 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:53,748 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:53,764 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:47:53,779 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:53,795 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:53,810 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:47:54,076 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:54,092 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:54,702 INFO  crawl.CrawlDb - CrawlDb update: done
+2023-08-05 18:47:55,706 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2023-08-05 18:47:55,706 INFO  crawl.Generator - Generator: starting
+2023-08-05 18:47:55,706 INFO  crawl.Generator - Generator: segment: crawl/segments/20230805184755
+2023-08-05 18:47:55,706 INFO  crawl.Generator - Generator: filtering: false
+2023-08-05 18:47:55,706 INFO  crawl.Generator - Generator: topN: 50
+2023-08-05 18:47:55,706 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2023-08-05 18:47:55,819 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:55,850 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:55,850 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2023-08-05 18:47:55,881 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:55,912 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:56,828 INFO  crawl.Generator - Generator: Partitioning selected urls by host, for politeness.
+2023-08-05 18:47:56,930 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:56,946 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:56,961 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2023-08-05 18:47:57,917 INFO  crawl.Generator - Generator: done.
+2023-08-05 18:47:57,917 INFO  fetcher.Fetcher - Fetcher: starting
+2023-08-05 18:47:57,917 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20230805184755
+2023-08-05 18:47:58,027 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2023-08-05 18:47:58,027 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:47:58,042 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/convocation/convocation.php
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/research/projects.php
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/about/
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://cs.nits.ac.in/mip-lab/
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/wp-content/themes/openstrap/js/theme-menu.js
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/pcs_facilities/pcs.php
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://library.nits.ac.in/cgi-bin/koha/opac-library.pl
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/feed/
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/text/javascript
+2023-08-05 18:47:58,058 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/js/bootstrap.js
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,074 FATAL api.RobotRulesParser - Agent we advertise (nitscrawl) not listed first in 'http.robots.agents' property!
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.host = 172.16.199.20
+2023-08-05 18:47:58,074 INFO  http.Http - http.proxy.port = 8080
+2023-08-05 18:47:58,074 INFO  http.Http - http.timeout = 100000
+2023-08-05 18:47:58,074 INFO  http.Http - http.content.limit = 65536
+2023-08-05 18:47:58,074 INFO  http.Http - http.agent = nitscrawl/Nutch-0.9
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.blocking = true
+2023-08-05 18:47:58,074 INFO  http.Http - protocol.plugin.check.robots = true
+2023-08-05 18:47:58,074 INFO  http.Http - fetcher.server.delay = 1000
+2023-08-05 18:47:58,074 INFO  http.Http - http.max.delays = 1000
+2023-08-05 18:47:58,089 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/hostels.php
+2023-08-05 18:47:58,769 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2023-08-05 18:47:58,771 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2023-08-05 18:47:58,772 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/departments/humanities/humanities.php
+2023-08-05 18:47:59,577 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/research/
+2023-08-05 18:48:00,609 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/sports_games.php
+2023-08-05 18:48:01,591 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/people/
+2023-08-05 18:48:02,905 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/people/
+2023-08-05 18:48:04,300 INFO  fetcher.Fetcher - fetching http://library.nits.ac.in/).append(
+2023-08-05 18:48:04,707 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/dasa/dasa.php
+2023-08-05 18:48:05,476 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/results/results.php
+2023-08-05 18:48:06,772 WARN  parse.ParserFactory - ParserFactory:Plugin: org.apache.nutch.parse.html.HtmlParser mapped to contentType text/xml via parse-plugins.xml, but its plugin.xml file does not claim to support contentType: text/xml
+2023-08-05 18:48:06,772 WARN  parse.ParserFactory - ParserFactory: Plugin: org.apache.nutch.parse.rss.RSSParser mapped to contentType text/xml via parse-plugins.xml, but not enabled via plugin.includes in nutch-default.xml
+2023-08-05 18:48:06,772 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/reach-us/
+2023-08-05 18:48:07,789 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/research/publications.php
+2023-08-05 18:48:09,175 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/course/
+2023-08-05 18:48:10,223 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/covid19.php
+2023-08-05 18:48:11,579 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/contactus.php
+2023-08-05 18:48:12,611 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/tnp/esteemed-recruiters
+2023-08-05 18:48:13,624 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/administration/text/javascript
+2023-08-05 18:48:14,620 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/departments/physics/physics.php
+2023-08-05 18:48:15,982 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/gymkhana/index.html
+2023-08-05 18:48:16,999 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/research/patents.php
+2023-08-05 18:48:18,008 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/xmlrpc.php
+2023-08-05 18:48:19,024 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/healthcentre.php
+2023-08-05 18:48:20,040 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/diversity/diversity.php
+2023-08-05 18:48:21,061 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/international_students.php
+2023-08-05 18:48:22,441 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/gyansagar.php
+2023-08-05 18:48:23,461 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/wp-includes/wlwmanifest.xml
+2023-08-05 18:48:24,466 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/aboutus/text/javascript
+2023-08-05 18:48:25,458 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/ncc_nits/index.php
+2023-08-05 18:48:26,488 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/text/javascript
+2023-08-05 18:48:27,495 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/campuslife/societies.php
+2023-08-05 18:48:28,511 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/departments/chem/chem.php
+2023-08-05 18:48:29,812 INFO  fetcher.Fetcher - fetching http://maths.nits.ac.in/student-zone-2/
+2023-08-05 18:48:30,811 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/comments/feed/
+2023-08-05 18:48:31,833 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/academics/text/javascript
+2023-08-05 18:48:32,851 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/admissions/text/javascript
+2023-08-05 18:48:33,849 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/tnp/
+2023-08-05 18:48:34,985 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/departments/management/management.php
+2023-08-05 18:48:35,978 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/tnp/index.php
+2023-08-05 18:48:37,074 INFO  fetcher.Fetcher - fetching http://ciks.nits.ac.in/reach-us/
+2023-08-05 18:48:38,091 INFO  fetcher.Fetcher - fetching http://www.nits.ac.in/js/jquery-1.11.1.js
+2023-08-05 18:48:39,095 INFO  fetcher.Fetcher - fetching http://library.nits.ac.in/cgi-bin/koha/opac-main.pl
+2023-08-05 18:48:50,385 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:50,401 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:50,432 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2023-08-05 18:48:51,261 INFO  fetcher.Fetcher - Fetcher: done
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: starting
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20230805184755]
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2023-08-05 18:48:51,261 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2023-08-05 18:48:51,370 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:51,406 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:51,413 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:48:51,452 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:51,467 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:51,483 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:48:51,498 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:51,530 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:51,530 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2023-08-05 18:48:51,670 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:51,702 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:52,386 INFO  crawl.CrawlDb - CrawlDb update: done
+2023-08-05 18:48:52,386 INFO  crawl.LinkDb - LinkDb: starting
+2023-08-05 18:48:52,386 INFO  crawl.LinkDb - LinkDb: linkdb: crawl/linkdb
+2023-08-05 18:48:52,386 INFO  crawl.LinkDb - LinkDb: URL normalize: true
+2023-08-05 18:48:52,386 INFO  crawl.LinkDb - LinkDb: URL filter: true
+2023-08-05 18:48:52,402 INFO  crawl.LinkDb - LinkDb: adding segment: crawl/segments/20230805184551
+2023-08-05 18:48:52,402 INFO  crawl.LinkDb - LinkDb: adding segment: crawl/segments/20230805184557
+2023-08-05 18:48:52,402 INFO  crawl.LinkDb - LinkDb: adding segment: crawl/segments/20230805184755
+2023-08-05 18:48:53,523 INFO  crawl.LinkDb - LinkDb: done
+2023-08-05 18:48:53,524 INFO  indexer.Indexer - Indexer: starting
+2023-08-05 18:48:53,524 INFO  indexer.Indexer - Indexer: linkdb: crawl/linkdb
+2023-08-05 18:48:53,530 INFO  indexer.Indexer - Indexer: adding segment: crawl/segments/20230805184551
+2023-08-05 18:48:53,531 INFO  indexer.Indexer - Indexer: adding segment: crawl/segments/20230805184557
+2023-08-05 18:48:53,531 INFO  indexer.Indexer - Indexer: adding segment: crawl/segments/20230805184755
+2023-08-05 18:48:53,630 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,662 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,662 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,693 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,709 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,709 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,724 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,755 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,755 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,771 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,802 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,802 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,818 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,833 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,833 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,865 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,896 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,896 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,927 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:53,959 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:53,959 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:53,990 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:54,006 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:54,006 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:54,043 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:54,067 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:54,068 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:54,069 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:54,116 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:54,147 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:54,147 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:54,163 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:54,194 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:54,194 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:54,287 INFO  plugin.PluginRepository - Plugins: looking in: C:\cygwin64\home\ASUS\nutch-0.9\plugins
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - Registered Plugins:
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - Registered Extension-Points:
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2023-08-05 18:48:54,303 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2023-08-05 18:48:54,303 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2023-08-05 18:48:54,334 INFO  indexer.Indexer -  Indexing [http://ce.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,350 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,350 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/comments/feed/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,350 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/feed/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,350 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/people/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,350 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/reach-us/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,350 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/wp-content/themes/openstrap/js/theme-menu.js] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,365 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/wp-includes/wlwmanifest.xml] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,365 INFO  indexer.Indexer -  Indexing [http://ciks.nits.ac.in/xmlrpc.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,365 INFO  indexer.Indexer -  Indexing [http://cs.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,365 INFO  indexer.Indexer -  Indexing [http://cs.nits.ac.in/mip-lab/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,365 INFO  indexer.Indexer -  Indexing [http://ec.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,365 INFO  indexer.Indexer -  Indexing [http://eed.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,381 INFO  indexer.Indexer -  Indexing [http://eie.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,381 INFO  indexer.Indexer -  Indexing [http://library.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,381 INFO  indexer.Indexer -  Indexing [http://library.nits.ac.in/cgi-bin/koha/opac-library.pl] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,381 INFO  indexer.Indexer -  Indexing [http://library.nits.ac.in/cgi-bin/koha/opac-main.pl] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,397 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,397 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/about/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,397 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/course/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,397 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/people/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,397 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/reach-us/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,397 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/research/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,412 INFO  indexer.Indexer -  Indexing [http://maths.nits.ac.in/student-zone-2/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,412 INFO  indexer.Indexer -  Indexing [http://me.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,412 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,428 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/List_of_Directors_01122017.pdf] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,428 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/boardofgovernors.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,428 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/buildingandworkscommittee.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/directormessage.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/financecommittee.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/history.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/objectivesandvalues.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/reachus.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/senatecommittee.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,443 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/aboutus/visionandmission.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,459 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/academic_forms.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,459 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/academic_rules.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,459 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/academic_section.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,459 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/academiccalendar_timetable.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,459 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/ccc.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,475 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/contactus_academics.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,475 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/doc_verification_procedure.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,475 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/fee_structure.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,475 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/internship.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,475 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/academics/programme.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,475 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/accounts/accounts.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,490 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/achievements/achievements.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,490 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/assistantregistrar.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,490 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/associate_deans.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,594 INFO  indexer.Indexer - merging segments _ram_0 (1 docs) _ram_1 (1 docs) _ram_2 (1 docs) _ram_3 (1 docs) _ram_4 (1 docs) _ram_5 (1 docs) _ram_6 (1 docs) _ram_7 (1 docs) _ram_8 (1 docs) _ram_9 (1 docs) _ram_a (1 docs) _ram_b (1 docs) _ram_c (1 docs) _ram_d (1 docs) _ram_e (1 docs) _ram_f (1 docs) _ram_g (1 docs) _ram_h (1 docs) _ram_i (1 docs) _ram_j (1 docs) _ram_k (1 docs) _ram_l (1 docs) _ram_m (1 docs) _ram_n (1 docs) _ram_o (1 docs) _ram_p (1 docs) _ram_q (1 docs) _ram_r (1 docs) _ram_s (1 docs) _ram_t (1 docs) _ram_u (1 docs) _ram_v (1 docs) _ram_w (1 docs) _ram_x (1 docs) _ram_y (1 docs) _ram_z (1 docs) _ram_10 (1 docs) _ram_11 (1 docs) _ram_12 (1 docs) _ram_13 (1 docs) _ram_14 (1 docs) _ram_15 (1 docs) _ram_16 (1 docs) _ram_17 (1 docs) _ram_18 (1 docs) _ram_19 (1 docs) _ram_1a (1 docs) _ram_1b (1 docs) _ram_1c (1 docs) _ram_1d (1 docs) into _0 (50 docs)
+2023-08-05 18:48:54,598 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/deans.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,600 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/deputyregistrar.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,601 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/director.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,603 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/hods.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,604 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/registrar.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,605 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/administration/wardens.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,607 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/admissions/admissionintake.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,608 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/admissions/btechadmission.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,610 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/admissions/mbaadmission.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,612 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/admissions/mtechadmission.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,614 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/admissions/phdadmission.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,616 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/admissions/scholarships.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/campusfacilities.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/festivals.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/guesthouse.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/gyansagar.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/healthcentre.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/hostels.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/ncc_nits/index.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/photos.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,619 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/societies.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,635 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/campuslife/sports_games.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,635 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/contactus.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,635 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/covid19.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,635 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/dasa/dasa.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,635 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/departments/chem/chem.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,635 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/departments/humanities/humanities.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/departments/management/management.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/departments/physics/physics.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/diversity/diversity.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/gymkhana/index.html] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/international_students.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/js/bootstrap.js] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,650 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/js/jquery-1.11.1.js] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/noticeboard.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/pcs_facilities/pcs.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/research/patents.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/research/projects.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/research/publications.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/results/results.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,666 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/tnp/] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,681 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/tnp/esteemed-recruiters] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,681 INFO  indexer.Indexer -  Indexing [http://www.nits.ac.in/tnp/index.php] with analyzer org.apache.nutch.analysis.NutchDocumentAnalyzer@530d0eae (null)
+2023-08-05 18:48:54,681 INFO  indexer.Indexer - Optimizing index.
+2023-08-05 18:48:54,728 INFO  indexer.Indexer - merging segments _ram_1e (1 docs) _ram_1f (1 docs) _ram_1g (1 docs) _ram_1h (1 docs) _ram_1i (1 docs) _ram_1j (1 docs) _ram_1k (1 docs) _ram_1l (1 docs) _ram_1m (1 docs) _ram_1n (1 docs) _ram_1o (1 docs) _ram_1p (1 docs) _ram_1q (1 docs) _ram_1r (1 docs) _ram_1s (1 docs) _ram_1t (1 docs) _ram_1u (1 docs) _ram_1v (1 docs) _ram_1w (1 docs) _ram_1x (1 docs) _ram_1y (1 docs) _ram_1z (1 docs) _ram_20 (1 docs) _ram_21 (1 docs) _ram_22 (1 docs) _ram_23 (1 docs) _ram_24 (1 docs) _ram_25 (1 docs) _ram_26 (1 docs) _ram_27 (1 docs) _ram_28 (1 docs) _ram_29 (1 docs) _ram_2a (1 docs) _ram_2b (1 docs) _ram_2c (1 docs) _ram_2d (1 docs) _ram_2e (1 docs) _ram_2f (1 docs) _ram_2g (1 docs) _ram_2h (1 docs) _ram_2i (1 docs) _ram_2j (1 docs) _ram_2k (1 docs) into _1 (43 docs)
+2023-08-05 18:48:54,759 INFO  indexer.Indexer - merging segments _0 (50 docs) _1 (43 docs) into _2 (93 docs)
+2023-08-05 18:48:55,637 INFO  indexer.Indexer - Indexer: done
+2023-08-05 18:48:55,637 INFO  indexer.DeleteDuplicates - Dedup: starting
+2023-08-05 18:48:55,642 INFO  indexer.DeleteDuplicates - Dedup: adding indexes in: crawl/indexes
+2023-08-05 18:48:58,946 INFO  indexer.DeleteDuplicates - Dedup: done
+2023-08-05 18:48:58,946 INFO  indexer.IndexMerger - merging indexes to: crawl/index
+2023-08-05 18:48:58,946 INFO  indexer.IndexMerger - Adding crawl/indexes/part-00000
+2023-08-05 18:48:59,040 INFO  indexer.IndexMerger - done merging
+2023-08-05 18:48:59,040 INFO  crawl.Crawl - crawl finished: crawl

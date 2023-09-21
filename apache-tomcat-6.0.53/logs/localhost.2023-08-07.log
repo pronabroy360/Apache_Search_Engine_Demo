@@ -1,0 +1,12 @@
+7 Aug, 2023 7:56:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+7 Aug, 2023 7:56:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+7 Aug, 2023 10:12:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+7 Aug, 2023 10:12:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+7 Aug, 2023 10:18:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+7 Aug, 2023 10:18:25 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
